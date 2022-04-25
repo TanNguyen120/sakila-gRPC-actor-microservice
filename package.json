@@ -1,0 +1,24 @@
+{
+  "name": "sakila-grpc-actor-microservice",
+  "version": "1.0.0",
+  "description": "demo đơn giản một gRPC server có chức năng thực hiện chức năng CRUD cho table actor của database sakila",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanNguyen120/sakila-gRPC-actor-microservice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanNguyen120/sakila-gRPC-actor-microservice/issues"
+  },
+  "homepage": "https://github.com/TanNguyen120/sakila-gRPC-actor-microservice#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.6.7",
+    "grpc": "^1.24.11"
+  }
+}

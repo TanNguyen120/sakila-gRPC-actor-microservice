@@ -1,0 +1,12 @@
+// chỉ định phiêm bản của protobuf mà ta muốn sử dụng
+syntax = "proto3";
+
+// mesage trong protobuf là các thể hiện của các class
+message Actor{
+    // các số 1 2 3 4 là các số viết theo định dạng của file proto. Do protocol
+    // buffer lưu dữ liệu dưới dạng binary nên ta phải định danh các giá trị bằng số này
+    int64 id = 1;
+    string fisrtName = 2;
+    string lastName = 3;
+    string lastUpdate = 4;
+}
