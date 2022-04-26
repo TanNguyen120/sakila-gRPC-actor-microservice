@@ -12,5 +12,7 @@ demo đơn giản một gRPC server có chức năng thực hiện chức năng 
 
 - Để có thể sử dụng service này thì phía client phải cài file actor.proto vào và tiến hành load file đó lên
 
+- Để biết thêm về tên và các arg của các service xem trong phần định nghĩa ở file server
+
 
 - gõ lệnh npm start để run server
